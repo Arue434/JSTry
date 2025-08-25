@@ -4,6 +4,7 @@ const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout
 });
+
 let mur = [
     {nama: "ak", nilai: 90},
     {nama: "bk", nilai: 80},
@@ -58,4 +59,5 @@ console.log("Ketik nama atau ketik 'done' untuk keluar");
 console.log("Daftar nama: ak, bk, ck, dk");
 console.log("anda bisa menambahkan nama baru dengan mengetik nama yang tidak ada di daftar");
 ask();
+
 
